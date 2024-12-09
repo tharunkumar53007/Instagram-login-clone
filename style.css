@@ -1,6 +1,15 @@
 p{
     margin :0;
 }
+body{
+    display: flex;
+    justify-content: center;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .base-div{
     width: 300px;
     font-family: Roboto, Arial, Helvetica, sans-serif;
@@ -71,6 +80,10 @@ p{
 }
 .log-facebook-section{
     margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .no-have-account{
     font-size: 14px;
@@ -89,6 +102,10 @@ p{
 }
 .no-account-section{
     margin-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .downloads-section{
     display: flex;
